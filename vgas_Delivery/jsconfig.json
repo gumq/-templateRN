@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@api": [
+                "./actions/Api"
+            ],
+            "@components": [
+                "./components"
+            ],
+            "@screens": [
+                "./screens/*"
+            ],
+            "@storage": [
+                "./storage"
+            ],
+            "@routes": [
+                "./screens/routes"
+            ],
+            "@store": [
+                "./store"
+            ],
+            "@themes": [
+                "./themes"
+            ],
+            "@utils": [
+                "./utils"
+            ],
+            "@views": [
+                "./views"
+            ],
+            "@resolutions": [
+                "./utils/resolutions"
+            ],
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
